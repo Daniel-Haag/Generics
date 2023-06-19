@@ -1,7 +1,7 @@
 ﻿using Generics;
 using Generics.Modelos;
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Generics");
 
 Carro carro = new Carro()
 {

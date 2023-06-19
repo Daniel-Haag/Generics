@@ -23,7 +23,7 @@ namespace Generics
 
         public static T Deserializar<T>()
         {
-            StreamReader sr = new StreamReader(@$"C:\Cursos\Generics\Temp\{typeof(T)}.txt");
+            StreamReader sr = new StreamReader(@$"C:\Cursos\Generics\Temp\{typeof(T).Name}.txt");
             string conteudo = sr.ReadToEnd();
 
             JavaScriptSerializer serializador = new JavaScriptSerializer();
