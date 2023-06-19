@@ -26,9 +26,9 @@ Serializador.Serializar(carro);
 Serializador.Serializar(casa);
 Serializador.Serializar(usuario);
 
-Carro carroDeserializado = Serializador.Deserializar();
-Casa casaDeserializado = Serializador.Deserializar();
-Usuario usuarioDeserializado = Serializador.Deserializar();
+Carro carroDeserializado = Serializador.Deserializar<Carro>();
+Casa casaDeserializado = Serializador.Deserializar<Casa>();
+Usuario usuarioDeserializado = Serializador.Deserializar<Usuario>();
 
 Console.WriteLine($"CarroDeserializado: {carroDeserializado.Marca} - {carroDeserializado.Modelo}");
 Console.WriteLine($"CasaDeserializado: {casaDeserializado.Cidade} - {casaDeserializado.Endereco}");

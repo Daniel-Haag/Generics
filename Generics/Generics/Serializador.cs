@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace Generics
 {
@@ -20,14 +21,16 @@ namespace Generics
             sw.Close();
         }
 
-        public static Classe Deserializar()
+        public static T Deserializar<T>()
         {
+            StreamReader sr = new StreamReader(@$"C:\Cursos\Generics\Temp\{typeof(T)}.txt");
+            string conteudo = sr.ReadToEnd();
 
-            StreamReader sr = new StreamReader(@"C:\Cursos\Generics\Temp\(NomeDaClasse).txt");
+            JavaScriptSerializer serializador = new JavaScriptSerializer();
 
+            var obj = serializador.Deserialize<T>(conteudo);
+
+            return obj;
         }
-
-
-
     }
 }
