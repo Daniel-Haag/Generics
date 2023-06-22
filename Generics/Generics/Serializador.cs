@@ -10,9 +10,10 @@ namespace Generics
 {
     internal class Serializador
     {
-        public static void Serializar(object obj)
+        public static void Serializar<T>(T obj)
         {
-            StreamWriter sw = new StreamWriter(@$"C:\Cursos\Generics\Temp\{obj.GetType().Name}.txt");
+            //StreamWriter sw = new StreamWriter(@$"C:\Cursos\Generics\Temp\{obj.GetType().Name}.txt");
+            StreamWriter sw = new StreamWriter(@$"C:\Cursos\Generics\Temp\{typeof(T).Name}.txt");
 
             JavaScriptSerializer serializador = new JavaScriptSerializer();
             string objSerializado = serializador.Serialize(obj);
