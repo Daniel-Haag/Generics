@@ -1,0 +1,15 @@
+C:\Projetos\Prática de Generics\CacheGenerics\bin\Debug\net7.0\CacheGenerics.exe
+C:\Projetos\Prática de Generics\CacheGenerics\bin\Debug\net7.0\CacheGenerics.deps.json
+C:\Projetos\Prática de Generics\CacheGenerics\bin\Debug\net7.0\CacheGenerics.runtimeconfig.json
+C:\Projetos\Prática de Generics\CacheGenerics\bin\Debug\net7.0\CacheGenerics.dll
+C:\Projetos\Prática de Generics\CacheGenerics\bin\Debug\net7.0\CacheGenerics.pdb
+C:\Projetos\Prática de Generics\CacheGenerics\obj\Debug\net7.0\CacheGenerics.csproj.AssemblyReference.cache
+C:\Projetos\Prática de Generics\CacheGenerics\obj\Debug\net7.0\CacheGenerics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Prática de Generics\CacheGenerics\obj\Debug\net7.0\CacheGenerics.AssemblyInfoInputs.cache
+C:\Projetos\Prática de Generics\CacheGenerics\obj\Debug\net7.0\CacheGenerics.AssemblyInfo.cs
+C:\Projetos\Prática de Generics\CacheGenerics\obj\Debug\net7.0\CacheGenerics.csproj.CoreCompileInputs.cache
+C:\Projetos\Prática de Generics\CacheGenerics\obj\Debug\net7.0\CacheGenerics.dll
+C:\Projetos\Prática de Generics\CacheGenerics\obj\Debug\net7.0\refint\CacheGenerics.dll
+C:\Projetos\Prática de Generics\CacheGenerics\obj\Debug\net7.0\CacheGenerics.pdb
+C:\Projetos\Prática de Generics\CacheGenerics\obj\Debug\net7.0\CacheGenerics.genruntimeconfig.cache
+C:\Projetos\Prática de Generics\CacheGenerics\obj\Debug\net7.0\ref\CacheGenerics.dll
